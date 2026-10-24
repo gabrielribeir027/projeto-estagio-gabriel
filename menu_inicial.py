@@ -10,6 +10,5 @@ while opcao != 6:
     [6] ENCERRAR SISTEMA''')
     opcao = int(input('Digite a sua opção: '))
     if opcao == 1:
-        print('== CADASTRO PROJETO ==')
         cadastro_projeto()
 print('PROGRAMA FINALIZADO...')
